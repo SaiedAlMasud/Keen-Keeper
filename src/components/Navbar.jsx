@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className='bg-base-100 shadow-sm'>
             <div className="navbar container mx-auto">
                 <div className="navbar-start">                    
-                    <h1 className="text-[24px] font-bold">Keen<span className='text-[#2b614f] font-semibold'>Keeper</span></h1>
+                    <h1 className="text-[36px] font-bold">Keen<span className='text-[#2b614f] font-semibold'>Keeper</span></h1>
                 </div>
                 
                 <div className="flex navbar-end gap-2">

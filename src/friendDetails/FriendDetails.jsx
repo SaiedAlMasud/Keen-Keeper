@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { FaArchive } from 'react-icons/fa';
 import { RiDeleteBinLine, RiNotificationSnoozeLine } from 'react-icons/ri';
-import { useLoaderData, useParams } from 'react-router-dom';
+import { useLoaderData } from 'react-router-dom';
+import {FriendContext} from '../context/FriendContext'
 
 const FriendDetails = () => {
-    const { id } = useParams();
+    //const { id } = useParams();
     const friend = useLoaderData();
+    const {addInteraction} = useContext(FriendContext);
     return (
         <div className='bg-base-300 py-10 h-screen'>
             <div className='container mx-auto grid grid-cols-2 md:grid-cols-4 gap-5 pt-10'>
@@ -75,25 +77,24 @@ const FriendDetails = () => {
                     <div className='p-5 my-5 rounded-xl text-2xl bg-white space-y-7'>
                         <h1 className='text-[#244D3F] font-semibold'>Quick Check-In</h1>
                         <div className='grid grid-cols-1 md:grid-cols-3 gap-5'>
-                            <button className='flex flex-col justify-center items-center p-5 space-y-3 bg-base-200 rounded-xl border border-gray-200 cursor-pointer'>
+                            <button onClick={() =>addInteraction(friend.id, friend.name, "Call")} className='flex flex-col justify-center items-center p-5 space-y-3 bg-base-200 rounded-xl border border-gray-200 cursor-pointer'>
                                 <img
                                     className='w-10'
                                     src="/src/assets/call.png" alt="" />
                                 <h3 className='text-[20px] font-semibold'>Call</h3>
                             </button>
-                            <button className='flex flex-col justify-center items-center p-5 space-y-3 bg-base-200 rounded-xl border border-gray-200 cursor-pointer'>
+                            <button onClick={() =>addInteraction(friend.id, friend.name, "Text")} className='flex flex-col justify-center items-center p-5 space-y-3 bg-base-200 rounded-xl border border-gray-200 cursor-pointer'>
                                 <img
                                     className='w-10'
                                     src="/src/assets/text.png" alt="" />
                                 <h3 className='text-[20px] font-semibold'>Text</h3>
                             </button>
-                            <button className='flex flex-col justify-center items-center p-5 space-y-3 bg-base-200 rounded-xl border border-gray-200 cursor-pointer'>
+                            <button onClick={() =>addInteraction(friend.id, friend.name, "Video")} className='flex flex-col justify-center items-center p-5 space-y-3 bg-base-200 rounded-xl border border-gray-200 cursor-pointer'>
                                 <img
                                     className='w-10'
                                     src="/src/assets/video.png" alt="" />
                                 <h3 className='text-[20px] font-semibold'>Video</h3>
                             </button>
-
                         </div>
                     </div>
 

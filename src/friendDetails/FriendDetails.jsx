@@ -10,9 +10,9 @@ const FriendDetails = () => {
     const {addInteraction} = useContext(FriendContext);
     return (
         <div className='bg-base-300 py-10 h-screen'>
-            <div className='container mx-auto grid grid-cols-2 md:grid-cols-4 gap-5 pt-10'>
-                <div className='space-y-3'>
-                    <div className='space-y-2 shadow-md rounded-lg bg-white p-5 mx-auto'>
+            <div className='container mx-auto grid grid-cols-1 md:grid-cols-4 gap-5 pt-10'>
+                <div className='space-y-3 mx-8 md:mx-0'>
+                    <div className='space-y-2 shadow-md rounded-lg bg-white p-5 mx-auto w-full'>
                         <figure className='rounded-full w-25 h-25 mx-auto overflow-hidden'>
                             <img
                                 className='w-full h-full'

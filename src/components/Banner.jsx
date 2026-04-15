@@ -5,22 +5,24 @@ const Banner = () => {
     return (
         <div>
             <BannerHeading />
-            <div className='container mx-auto grid grid-cols-1 md:grid-cols-4 gap-15 mb-10'>
-                <div className='bg-white rounded-xl py-5 text-center'>
-                    <h1 className='text-[28px] font-semibold text-[#244D3F]'>10</h1>
-                    <p className='text-[16px] opacity-80 text-[#64748B]'>Total Friends</p>
-                </div>
-                <div className='bg-white rounded-xl py-5 text-center'>
-                    <h1 className='text-[28px] font-semibold text-[#244D3F]'>3</h1>
-                    <p className='text-[16px] opacity-80 text-[#64748B]'>On Track</p>
-                </div>
-                <div className='bg-white rounded-xl py-5 text-center'>
-                    <h1 className='text-[28px] font-semibold text-[#244D3F]'>6</h1>
-                    <p className='text-[16px] opacity-80 text-[#64748B]'>Need Attention</p>
-                </div>
-                <div className='bg-white rounded-xl py-5 text-center'>
-                    <h1 className='text-[28px] font-semibold text-[#244D3F]'>12</h1>
-                    <p className='text-[16px] opacity-80 text-[#64748B]'>Interactions This Month</p>
+            <div className='container mx-auto'>
+                <div className='grid grid-cols-1 md:grid-cols-4 gap-15 mb-10 mx-10 md:mx-0'>
+                    <div className='bg-white rounded-xl py-5 text-center'>
+                        <h1 className='text-[28px] font-semibold text-[#244D3F]'>10</h1>
+                        <p className='text-[16px] opacity-80 text-[#64748B]'>Total Friends</p>
+                    </div>
+                    <div className='bg-white rounded-xl py-5 text-center'>
+                        <h1 className='text-[28px] font-semibold text-[#244D3F]'>3</h1>
+                        <p className='text-[16px] opacity-80 text-[#64748B]'>On Track</p>
+                    </div>
+                    <div className='bg-white rounded-xl py-5 text-center'>
+                        <h1 className='text-[28px] font-semibold text-[#244D3F]'>6</h1>
+                        <p className='text-[16px] opacity-80 text-[#64748B]'>Need Attention</p>
+                    </div>
+                    <div className='bg-white rounded-xl py-5 text-center'>
+                        <h1 className='text-[28px] font-semibold text-[#244D3F]'>12</h1>
+                        <p className='text-[16px] opacity-80 text-[#64748B]'>Interactions This Month</p>
+                    </div>
                 </div>
             </div>
         </div>

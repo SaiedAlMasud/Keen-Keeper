@@ -22,3 +22,4 @@ export const FriendProvider = ({children}) =>{
         <FriendContext.Provider value={data}>{children}</FriendContext.Provider>
     );
 };
+export default FriendProvider;

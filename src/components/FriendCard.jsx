@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const FriendCard = ({ friend }) => {
     return (
         <Link to={`/friendDetails/${friend.id}`}>
-            <div className='rounded-xl bg-white shadow-md p-8 text-center space-y-2'>
+            <div className='rounded-xl bg-white shadow-md p-8 text-center space-y-2 mx-5 md:mx-0'>
 
                 <figure className='rounded-full w-25 h-25 mx-auto overflow-hidden'>
                     <img

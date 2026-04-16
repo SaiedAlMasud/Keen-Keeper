@@ -1,16 +1,29 @@
-# React + Vite
+# Project Name
+The name of my project is **keenKeeper**
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📝 Description
 
-Currently, two official plugins are available:
+KeenKeeper is a relationship management application that helps you stay connected with the people. Track your interactions, show your interactions, gives you a statistics of your interactions. Have multiple page routings. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React (with Vite)**
+- **Tailwind CSS + DaisyUI**
+- **React Toastify (for notifications)**
+- **React Icons**
+- **React Routing**
+- **JavaScript (ES6+)**
+- **JSON Data for product listing**
+- **DaisyUI**
+---
 
-## Expanding the ESLint configuration
+## ✨ 3 Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Users can track their relationships with status indicators (overdue, almost due, on-track) and receive visual notifications for every interaction logged
+- Users can add interactions (calls, texts, meetings) for each contact, view interaction history, and organize contacts with custom tags
+- Users can see statistics of their interactions with friends.
+
+---

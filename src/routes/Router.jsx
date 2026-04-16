@@ -6,6 +6,7 @@ import FriendDetails from '../friendDetails/FriendDetails';
 import Timeline from '../timeline/Timeline';
 import Stats from '../stats/Stats';
 import Footer from '../footer/Footer';
+import Errorpage from '../errorPage/ErrorPage';
 
 export const router = createBrowserRouter([
   {
@@ -31,6 +32,6 @@ export const router = createBrowserRouter([
         
       },
     ],
-    //errorElement: <Errorpage/>
+    errorElement: <Errorpage/>
   }
 ]);

@@ -10,7 +10,7 @@ const Timeline = () => {
         : interaction;
 
     return (
-        <div className="bg-base-200 h-screen">
+        <div className="bg-base-200 min-h-screen">
             <div className='container mx-auto p-10 space-y-5'>
                 <h1 className='text-4xl font-bold'>Timeline</h1>
                 <div className="dropdown">

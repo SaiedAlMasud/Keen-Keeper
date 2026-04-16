@@ -1,4 +1,5 @@
 import React, { createContext, useState } from "react";
+import { toast } from "react-toastify";
 
 export const FriendContext = createContext();
 
@@ -11,6 +12,16 @@ export const FriendProvider = ({children}) =>{
             type,
             date: Date.now()
         };
+        if(type=="Call"){
+            toast.success(`${friendName} missed a call`,{ position: "top-center" });
+        }
+        if(type=="Text"){
+            toast.success(`${friendName} missed a text`,{ position: "top-center" });
+        }
+        if(type=="Video"){
+            toast.success(`${friendName} missed a video call`,{ position: "top-center" });
+        }
+        
         setinteraction([...interaction, newInteraction]);
     };
     const data = {

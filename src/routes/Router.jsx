@@ -5,6 +5,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import FriendDetails from '../friendDetails/FriendDetails';
 import Timeline from '../timeline/Timeline';
 import Stats from '../stats/Stats';
+import Footer from '../footer/Footer';
 
 export const router = createBrowserRouter([
   {
@@ -28,7 +29,7 @@ export const router = createBrowserRouter([
         path:"/stats",
         element: <Stats />
         
-      }
+      },
     ],
     //errorElement: <Errorpage/>
   }

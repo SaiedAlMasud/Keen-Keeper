@@ -15,6 +15,7 @@ KeenKeeper is a relationship management application that helps you stay connecte
 - **React Toastify (for notifications)**
 - **React Icons**
 - **React Routing**
+- **React Rechart**
 - **JavaScript (ES6+)**
 - **JSON Data for product listing**
 - **DaisyUI**

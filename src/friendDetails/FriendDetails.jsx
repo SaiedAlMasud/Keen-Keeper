@@ -80,19 +80,19 @@ const FriendDetails = () => {
                             <button onClick={() =>addInteraction(friend.id, friend.name, "Call")} className='flex flex-col justify-center items-center p-5 space-y-3 bg-base-200 rounded-xl border border-gray-200 cursor-pointer'>
                                 <img
                                     className='w-10'
-                                    src="/src/assets/call.png" alt="" />
+                                    src="/assets/call.png" alt="" />
                                 <h3 className='text-[20px] font-semibold'>Call</h3>
                             </button>
                             <button onClick={() =>addInteraction(friend.id, friend.name, "Text")} className='flex flex-col justify-center items-center p-5 space-y-3 bg-base-200 rounded-xl border border-gray-200 cursor-pointer'>
                                 <img
                                     className='w-10'
-                                    src="/src/assets/text.png" alt="" />
+                                    src="/assets/text.png" alt="" />
                                 <h3 className='text-[20px] font-semibold'>Text</h3>
                             </button>
                             <button onClick={() =>addInteraction(friend.id, friend.name, "Video")} className='flex flex-col justify-center items-center p-5 space-y-3 bg-base-200 rounded-xl border border-gray-200 cursor-pointer'>
                                 <img
                                     className='w-10'
-                                    src="/src/assets/video.png" alt="" />
+                                    src="/assets/video.png" alt="" />
                                 <h3 className='text-[20px] font-semibold'>Video</h3>
                             </button>
                         </div>

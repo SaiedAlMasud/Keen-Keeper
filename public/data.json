@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Sarah Chen",
-    "picture": "/photo-1.jpg",
+    "picture": "/assets/photo-1.jpg",
     "email": "sarah.chen@techstars.com",
     "days_since_contact": 18,
     "status": "overdue",
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "name": "Marcus Williams",
-    "picture": "/photo-2.jpg",
+    "picture": "/assets/photo-2.jpg",
     "email": "marcus.williams@gmail.com",
     "days_since_contact": 45,
     "status": "overdue",
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "name": "Priya Patel",
-    "picture": "/photo-3.jpg",
+    "picture": "/assets/photo-3.jpg",
     "email": "priya.patel@healthcare.com",
     "days_since_contact": 8,
     "status": "almost due",
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "name": "David Kim",
-    "picture": "/photo-4.jpg",
+    "picture": "/assets/photo-4.jpg",
     "email": "david.kim@startup.com",
     "days_since_contact": 3,
     "status": "on-track",
@@ -50,7 +50,7 @@
   {
     "id": 5,
     "name": "Elena Rodriguez",
-    "picture": "/photo-5.jpg",
+    "picture": "/assets/photo-5.jpg",
     "email": "elena.rodriguez@designstudio.com",
     "days_since_contact": 21,
     "status": "overdue",
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "name": "James Wilson",
-    "picture": "/src/assets/photo-1.jpg",
+    "picture": "/assets/photo-1.jpg",
     "email": "jwilson@familychurch.org",
     "days_since_contact": 9,
     "status": "almost due",
@@ -74,7 +74,7 @@
   {
     "id": 7,
     "name": "Maya Johnson",
-    "picture": "/src/assets/photo-2.jpg",
+    "picture": "/assets/photo-2.jpg",
     "email": "maya.johnson@nonprofit.org",
     "days_since_contact": 5,
     "status": "on-track",
@@ -86,7 +86,7 @@
   {
     "id": 8,
     "name": "Alex Thompson",
-    "picture": "/src/assets/photo-3.jpg",
+    "picture": "/assets/photo-3.jpg",
     "email": "alex.thompson@venturecapital.com",
     "days_since_contact": 32,
     "status": "overdue",
@@ -98,7 +98,7 @@
   {
     "id": 9,
     "name": "Nina Gupta",
-    "picture": "/src/assets/photo-4.jpg",
+    "picture": "/assets/photo-4.jpg",
     "email": "nina.gupta@lawfirm.com",
     "days_since_contact": 11,
     "status": "almost due",
@@ -110,7 +110,7 @@
   {
     "id": 10,
     "name": "Carlos Mendez",
-    "picture": "/src/assets/photo-5.jpg",
+    "picture": "/assets/photo-5.jpg",
     "email": "carlos.mendez@techcrunch.com",
     "days_since_contact": 2,
     "status": "on-track",
@@ -122,7 +122,7 @@
   {
     "id": 11,
     "name": "Rachel Green",
-    "picture": "/src/assets/photo-1.jpg",
+    "picture": "/assets/photo-1.jpg",
     "email": "rachel.green@hospital.org",
     "days_since_contact": 28,
     "status": "overdue",
@@ -134,7 +134,7 @@
   {
     "id": 12,
     "name": "Oliver Zhang",
-    "picture": "/src/assets/photo-2.jpg",
+    "picture": "/assets/photo-2.jpg",
     "email": "oliver.zhang@robotics.com",
     "days_since_contact": 6,
     "status": "on-track",
@@ -146,7 +146,7 @@
   {
     "id": 13,
     "name": "Tiffany Brooks",
-    "picture": "/src/assets/photo-3.jpg",
+    "picture": "/assets/photo-3.jpg",
     "email": "tiffany.brooks@fitness.com",
     "days_since_contact": 13,
     "status": "almost due",
@@ -158,7 +158,7 @@
   {
     "id": 14,
     "name": "Brian Foster",
-    "picture": "/src/assets/photo-4.jpg",
+    "picture": "/assets/photo-4.jpg",
     "email": "brian.foster@realestate.com",
     "days_since_contact": 42,
     "status": "overdue",
@@ -170,7 +170,7 @@
   {
     "id": 15,
     "name": "Sophia Lee",
-    "picture": "/src/assets/photo-5.jpg",
+    "picture": "/assets/photo-5.jpg",
     "email": "sophia.lee@artgallery.com",
     "days_since_contact": 4,
     "status": "on-track",

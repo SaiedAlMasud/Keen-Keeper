@@ -29,9 +29,9 @@ const Timeline = () => {
                                 <div key={item.id} className='bg-white flex gap-5 rounded-xl p-5 shadow-sm'>
                                     <img
                                         className='p-3'
-                                        src={item.type == "Call" ? "/src/assets/call.png" :
-                                            item.type == "Video" ? "/src/assets/video.png" :
-                                                "/src/assets/text.png"} alt="" />
+                                        src={item.type == "Call" ? "/assets/call.png" :
+                                            item.type == "Video" ? "/assets/video.png" :
+                                                "/assets/text.png"} alt="" />
                                     <div>
                                         <p className='text-md text-gray-500'><span className='text-lg text-gray-700 font-semibold'>{item.type} </span>with {item.friendName}</p>
                                         <p className='text-md text-gray-500'>Date: {new Date(item.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</p>

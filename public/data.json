@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Sarah Chen",
-    "picture": "/src/assets/photo-1.jpg",
+    "picture": "/photo-1.jpg",
     "email": "sarah.chen@techstars.com",
     "days_since_contact": 18,
     "status": "overdue",
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "name": "Marcus Williams",
-    "picture": "/src/assets/photo-2.jpg",
+    "picture": "/photo-2.jpg",
     "email": "marcus.williams@gmail.com",
     "days_since_contact": 45,
     "status": "overdue",
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "name": "Priya Patel",
-    "picture": "/src/assets/photo-3.jpg",
+    "picture": "/photo-3.jpg",
     "email": "priya.patel@healthcare.com",
     "days_since_contact": 8,
     "status": "almost due",
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "name": "David Kim",
-    "picture": "/src/assets/photo-4.jpg",
+    "picture": "/photo-4.jpg",
     "email": "david.kim@startup.com",
     "days_since_contact": 3,
     "status": "on-track",
@@ -50,7 +50,7 @@
   {
     "id": 5,
     "name": "Elena Rodriguez",
-    "picture": "/src/assets/photo-5.jpg",
+    "picture": "/photo-5.jpg",
     "email": "elena.rodriguez@designstudio.com",
     "days_since_contact": 21,
     "status": "overdue",

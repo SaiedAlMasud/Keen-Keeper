@@ -9,9 +9,9 @@ const Footer = () => {
                     <p className='opacity-75'>Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.</p>
                     <h3 className="text-xl opacity-90">Social Links</h3>
                     <div className='flex gap-6 justify-center '>
-                        <img src="/src/assets/instagram.png" alt="" />
-                        <img src="/src/assets/facebook.png" alt="" />
-                        <img src="/src/assets/twitter.png" alt="" />
+                        <img src="/assets/instagram.png" alt="" />
+                        <img src="/assets/facebook.png" alt="" />
+                        <img src="/assets/twitter.png" alt="" />
                     </div>
                     <div className="divider"></div>
                 </div>
